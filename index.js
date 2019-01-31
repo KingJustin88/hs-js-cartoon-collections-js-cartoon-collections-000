@@ -1,9 +1,9 @@
 function dwarfRollCall(dwarves) {
   var dwarfgroup = []
-  for(let i = 0; i < dwarves.length; i +=1){
+  for(let i = 0; i < dwarves.length/2; i +=1){
     dwarfgroup.push(`${i + 1}. ${dwarves[i]} `)
   }
-  return dwarfgroup.join("")
+  return dwarfgroup.splice()
 }
 
 function summonCaptainPlanet(planeteerCalls){
@@ -25,12 +25,26 @@ function findTheCheese(foods) {
   for(let i = 0; i < foods.length; i += 1){
   if(foods[i] == 'cheddar' || 
      foods[i] == 'gouda' ||    
-     foods[i] == 'camembert' ){
-    return 'cheddar'
+     foods[i] == 'camembert' ||
+     foods[i] == 'swiss cheese'){
+    return foods[i]
     }
   }
   return `no cheese!`
 }
+
+function wordsWithB(words){
+  var newArr =[]
+  for(let i = 0; i < words.length; i += 1){
+    if(words[i].startsWith("b")){
+      newArr.push(words[i])
+  }
+  }
+  return newArr
+}
+
+
+arr = ['James', 'Sally', 'Bob']  
 
 
 
