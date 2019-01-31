@@ -1,9 +1,9 @@
 function dwarfRollCall(dwarves) {
   var dwarfgroup = []
-  for(let i = 0; i < dwarves.length/2; i +=1){
+  for(let i = 0; i < dwarves.length; i +=1){
     dwarfgroup.push(`${i + 1}. ${dwarves[i]} `)
   }
-  return dwarfgroup.splice()
+  return dwarfgroup.join("")
 }
 
 function summonCaptainPlanet(planeteerCalls){
