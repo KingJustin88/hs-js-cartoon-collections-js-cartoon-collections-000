@@ -33,18 +33,18 @@ function findTheCheese(foods) {
   return `no cheese!`
 }
 
-function wordsWithB(words){
-  var newArr =[]
-  for(let i = 0; i < words.length; i += 1){
-    if(words[i].startsWith("b")){
-      newArr.push(words[i])
-  }
-  }
-  return newArr
-}
+// function wordsWithB(words){
+//   var newArr =[]
+//   for(let i = 0; i < words.length; i += 1){
+//     if(words[i].startsWith("b")){
+//       newArr.push(words[i])
+//   }
+//   }
+//   return newArr
+// }
 
 
-arr = ['James', 'Sally', 'Bob']  
+// arr = ['James', 'Sally', 'Bob']  
 
 
 
